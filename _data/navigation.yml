@@ -1,4 +1,4 @@
-header:
+﻿header:
   - titles:
       en      : &EN       Archive
       en-GB   : *EN
@@ -32,3 +32,16 @@ header:
       ko      : &KO       소개
       ko-KR   : *KO
     url: /about.html
+docs-ko:
+  - title:      Start
+    children:
+      - title:  Quick Start
+        url:    /2018/06/02/test.html
+      - title:  Structure
+        url:    /docs/en/structure
+  - title:      Customization
+    children:
+      - title:  Configuration
+        url:    /docs/en/configuration
+      - title:  Navigation
+        url:    /docs/en/navigation
