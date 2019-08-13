@@ -6,61 +6,251 @@ titles:
   en-US   : *EN
   en-CA   : *EN
   en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
+  ko      : &KO       나는 누구지?
   ko-KR   : *KO
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+------
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+{:.success}
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+난 어렸을 때 부터 개발자가 되고 싶었다.
 
-## Features
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
 
-## Skins
+기계를 좋아했고. 남들보다 빠르게 기기를 접하고 체험하는 것을 좋아했으며,
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+조금은 재수없지만 기계적인것 모두 남들보다 더 잘하고 금방 습득했다.
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+그러나 끈기가 부족하고 게임을 좋아하다 보니 다른사람에게 따라잡히는 것은 순식간이었다.
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+부족한 끈기를 메꾸고 공부에 시간투자하는 방법은 다양하고 많겠지만,
 
-### Highlight Theme
+난 블로그에 글을 올려 내가 공부한 것들을 쌓아나가는 방법을 택하기로 했다.
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+------
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+> **이 블로그를 운영하는 것. 끈기 없어 금방 그만둘지 모르지만 일단 시작이 반이지 않은가.**
+
+------
+
+<details markdown="1">
+  <summary>내 삶..</summary>
+------
+
+## 초등학생.
+
+메이플스토리 듀프버그 등 게임 핵을 손보며 C언어를 접했다.
+
+이때는 C언어가 뭔지 모르고 문법도 모른채 값을 바꾸고 이것저것 건드려 보았다.
+
+------
+
+## 중학생.
+
+게임 프리서버를 열어 운영하려 했으나, 사교성과 말솜씨가 젬병이라 실패.
+
+오래 전 삼촌이 맞춰줬던 느려 터진 컴퓨터를 붙잡고 최적화 하는데 혈안이 되어 한달에 두번 이상 포멧했다.
+
+이 때는 조각모음을 그렇게 많이 하지 않을 수가 없었다. 지금 생각 해보면 조각모음 하는데 8시간. 빨라지는 건 단 몇초. 왜 그딴 짓을 했는지 모르겠다.
+
+부모님께 조르고 졸라 컴퓨터를 구입.
+
+조립식으로 하나하나 부품을 사서 집에 박스 열몇개를 널부려 놓고 조립했다.
+
+모든것이 완벽했다. 내가 성공적으로 조립했다고 생각했고 선까지 정리하고 부팅했으나 켜지지 않았다. 결국 동네 컴퓨터가게로 들고갔다.
+
+메모리 초기불량. 아직도 이건 내가 해결 할 수 있는 문제가 아니었다고 자위한다.
+
+우리나라 최신폰으로 감압식 터치폰이 떠오르던 시절 친구의 아이팟 터치를 사용해보았다.
+
+아이폰이 있다는 사실을 알고 아이폰으로 바꾸게 되었다.
+
+예약구매로 아이폰을 구매하여 사용해 보았는데 각종 앱들이 눈에 들어왔다.
+
+구글 플레이스토어가 많이 활성화 되지 않고 앱스토어가 활성화 되어 있던 시절.
+
+통신사가 만들어 놓은 앱 이외의 다양한 앱을 설치할 수 있다는 점에 놀랐다.
+
+이때부터 앱 개발자가 되는 것이 꿈이 되었다.
+
+대학생 들이나 볼 것 같은 C언어 책을 사서 보기 시작했다. 어디서 봤나 했더니 메이플스토리 핵 쓸 때 봤었다.
+
+------
+
+## 고등학생.
+
+아이폰도 있겠다 아이폰 앱을 만들려고 여러 책을 사서 보기 시작했다.
+
+그런데 아이폰 앱 개발은 맥이 있어야 한다는 사실. 해킨토시를 접했다.
+
+해킨토시를 하려 매우 발버둥 쳤으나 몇일 몇시간 컴퓨터 앞에서 검은화면 흰글씨 보며 한숨 푹푹쉬는 내 모습을 보고 가족들이 궁금해했다.
+
+학교 공부도 열심히 안하는데 그런 기술이라도 배우라고 아버지가 맥을 사 주셨다.
+
+그렇다. 결국 해킨토시는 못했다.
+
+클래스, 구조체, 객체, 인스턴스 알수없는 말들이 머릿속을 휘저었다.
+
+그렇게 한동안 몇권의 책들을 읽고 또 읽었으나 결국 앱은 따라하기 정도만 했었다.
+
+그러다 고2 가을 쯤 대학교를 가야 겠다는 생각이 들어 수학 과외 선생님 말을 듣고 엄청 공부하기 시작했다.
+
+수학과외선생님은 말했다. 수리 가형은 힘들것 같고 나형으로 수능보자.
+
+사인코사인탄젠트 이런건 대학가면 잘 쓰지도 않으니까 다 접어두고 나형 점수 나오게 집중하자고 했다. *(인생에서 손에 꼽는 후회1)*
+
+지금와서 든 생각이지만 이때 기초부터 다졌어야 했다. 수학 과외 선생님은 공대가 아니었다.
+
+고3 4월즈음 고3 반 친구들과 나만 별로 친해지지 못한 느낌을 받았다.
+
+롤 계정을 만들고 처음 롤을 해봤다. *(인생에서 손에 꼽는 후회2)*
+
+이때도 시작하지 말았어야 했다. 절망의 시작이다.
+
+------
+
+## 대학생.
+
+과가 게임공학과 인지라 별 생각없이 들어온 사람이 많았다.
+
+난 게임공학과에서 게임을 만들기를 원하는 -나와 비슷한- 친구들과 어울려 다녔다.
+
+과내 연구 동아리(MAGC)에 가입했고 처음으로 형들과 대화를 하고 규칙에 맞춰 하는 사회생활?을 경험했다.
+
+이 때는 공부도 열심히 하지 않았고 술도 많이 마시지 않았는데 뭘 했나 싶다. *(인생에서 손에 꼽는 후회3)*
+
+게임인가? 게임인가보다.
+
+------
+
+## 군대.
+
+군대는 춘천에 있는 곳. 102보충대를 통해 들어간 12보급대대였다.
+
+102 보충대로 지원업무를 가 매주 장병 1000~1500명에게 군복을 나눠주는 일을 했다.
+
+지금은 없어졌지만.
+
+여태 살아온 내용을 보면 알겠지만, 사교성이 매우 부족하다.
+
+그래서인지 동기들과 사이가 좋지 못했다. 선 후임간에는 모르겠다.
+
+전역하고도 후임이었던 친구와 만난적이 있으니 그리 나쁘진 않았을지도.
+
+아무튼 난 운동하고 활발한 동기들과 다르게 시간이 나면 책을 보거나 행정반에 들어가 컴퓨터를 가지고 놀았다.
+
+사실 컴퓨터로 놀만한게 없었다. 인터넷도 인트라넷이고, 보안담당관은 인트라넷에 있는 이클립스와 jdk를 설치하지 못하게 했다.
+
+물어보지 말고 설치해서 갖고놀걸. *(군생 후회)*
+
+아무튼 VBA를 만지면서 그런 어떤 컴퓨터적인 그런 사고를 잊지 않았고 충분히 남는시간을 즐겁게 보냈던것 같다.
+
+------
+
+## 다시 대학생.
+
+대학생이 되고 나서 제일 친했던 친구가 첫 연애를 만들어 줬고 지금까지 연애중이다.
+
+근데 웃긴건 그 제일 친했던 친구가 원수처럼 되어 버렸다는 것.
+
+사실 그 친구랑 경쟁하면서 또는 대화하면서 전공적으로 습득한 것이 엄청나다.
+
+그리고 군대에서 간부가 싫어 진 것 처럼 교수님들이 싫어지기 시작했다.
+
+4학년 2학기 단 한 학기만 마치면 졸업인 것을 학교가 가기 싫어 휴학했다.
+
+이때 휴학하면서 장학금 180만원이 날아갔다. *(인생에서 손에 꼽는 후회4)*
+
+그리고 아무것도 할 수 있는게 없다는 사실을 깨닫고.
+
+현재 다시 복학하여 반학기를 다니고 코스모스 졸업 예정이다.
+
+그리고 교수님이 싫어지기 시작 한 후부터 지금까지 나한테 발전이 별로 없다는 사실을 깨닫고 블로그를 만들었다.
+
+------
+
+> 조금 논 시간들이 커졌지만.
+>
+> 다른 열심히 공부하는 사람들 처럼만큼 만 이라도.
+>
+> 내가 열심히 하길.
+>
+> 이걸 읽으셨다면, 재미없는 글 읽어주셔서 감사합니다.
+
+</details>
+
+------
+
+
+
+<details markdown="1">
+<summary>시시콜콜한 이력서에나 들어갈 것 같은 내용..</summary>
+
+| 내 이름 |               |
+| ------- | ------------- |
+| 한글    | 박 상훈       |
+| 영문    | SangHoon Park |
+| 한자    | 朴相勳        |
+
+
+
+| 연락      |                                         |
+| --------- | --------------------------------------- |
+| 폰        | 010 - 3330 - 5502                       |
+| 이메일    | krpsh1@gmail.com                        |
+| KakaoTalk | iphonegs                                |
+| Steam     | https://steamcommunity.com/id/iPhoneGS/ |
+
+
+
+| 병역          |                                            |
+| ------------- | ------------------------------------------ |
+| 14.02 ~ 15.11 | 일반물자 저장관리(군수지원) 병장 만기 제대 |
+
+
+
+| 학교          |                            |
+| ------------- | -------------------------- |
+| 07.03 ~ 10.02 | 수원 동성중학교 졸업       |
+| 10.03 ~ 13.02 | 수원 유신 고등학교 졸업    |
+| 13.03 ~ 19.08 | 배재대학교 게임공학과 졸업 |
+
+
+
+| 학교 활동 내용 |                                                     |
+| -------------- | --------------------------------------------------- |
+| 13.03 ~ 19.07  | 학과 내 연구 동아리 활동(MAGC)                      |
+| 16.10          | 제 4회 전국 대학생 앱 개발 챌린지 (K-Hackaton) 결선 |
+| 16.11          | 배재대학교 기술창업 경진대회                        |
+| 17.09 ~ 17.12  | 교내 스타롤 매니지먼트 튜터                         |
+| 17.09 ~ 18.02  | LINC+ 동아리 팀장                                   |
+| 18.01          | 한국컴퓨터 정보학회 동계학술대회 논문               |
+| 18.01 ~ 18.03  | 학과 내 연구 동아리 팀장                            |
+
+
+
+| 수상 내용 |                                                         |
+| --------- | ------------------------------------------------------- |
+| 16.07     | 성적 우수 장학금                                        |
+| 16.10     | IT 인재양성 장학금                                      |
+| 16.10     | 제 4회 전국 대학생 앱 개발 챌린지(K-Hackaton) 이사장 상 |
+| 17.12     | 스타롤 매니지먼트 튜터 장학금                           |
+| 18.01     | 동계학술대회 우수논문 상                                |
+| 18.03     | 성적 전액 장학금                                        |
+
+
+
+| 사용 경험  |                                      |
+| ---------- | ------------------------------------ |
+| 언어       | C/C++, C#, Java, Swift               |
+| 게임 엔진  | Unity3D                              |
+| 라이브러리 | NGUI, Photon Unity Network, Firebase |
+| 툴         | Visual Studio, Xcode, Eclipse        |
+
+</details>
+
+------
+
+내가 누구인지 생각하며 이 페이지를 적으니 생각이 좀 정리되는 것 같다.
